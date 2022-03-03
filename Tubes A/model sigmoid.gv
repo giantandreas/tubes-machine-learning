@@ -1,0 +1,11 @@
+digraph "FNNN: XOR" {
+	b0 -> h1_1 [label=-10]
+	b0 -> h1_2 [label=30]
+	x0_1 -> h1_1 [label=20]
+	x0_1 -> h1_2 [label=-20]
+	x0_2 -> h1_1 [label=20]
+	x0_2 -> h1_2 [label=-20]
+	b1 -> y [label=-30]
+	h1_1 -> y [label=20]
+	h1_2 -> y [label=20]
+}
