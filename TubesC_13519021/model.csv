@@ -1,0 +1,4 @@
+neuron,activation
+4,sigmoid
+3,sigmoid
+3,sigmoid
